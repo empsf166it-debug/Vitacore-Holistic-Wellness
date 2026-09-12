@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitaCore | Holistic Health & Wellness</title>
+  <meta name="description" content="VitaCore brings together mindful movement, nourishing nutrition, restorative habits, and personalized guidance to help you build a healthier life.">
+  
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body>
+  <div class="site-wrapper">
+
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <span>VitaCore</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#" class="active">Home</a>
+        <a href="#philosophy">Our Philosophy</a>
+        <a href="#wellness">Wellness</a>
+        <a href="#programs">Programs</a>
+        <a href="#experts">Experts</a>
+        <a href="#stories">Stories</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fa-regular fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn-primary-brand d-none d-xl-inline-block">Start Your Journey</a>
+        <button class="icon-btn mobile-menu-toggle" id="openMenu" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <span>VitaCore</span>
+      </a>
+      <button class="close-drawer" id="closeMenu" aria-label="Close Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#" class="drawer-link">Home</a>
+      <a href="#philosophy" class="drawer-link">Our Philosophy</a>
+      <a href="#wellness" class="drawer-link">Wellness</a>
+      <a href="#programs" class="drawer-link">Programs</a>
+      <a href="#experts" class="drawer-link">Experts</a>
+      <a href="#stories" class="drawer-link">Stories</a>
+      <a href="#faq" class="drawer-link">FAQ</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+    </nav>
+    <a href="#contact" class="btn-primary-brand text-center drawer-link">Start Your Journey</a>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <img src="assets/images/hero_wellness.jpg" onerror="this.src='https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2000&auto=format&fit=crop'" alt="Calm wellness environment" class="hero-zoom-anim">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-xl-7">
+          <div class="hero-content">
+            <span class="small-label anim-fade-up">Whole-Person Wellness</span>
+            <h1 class="section-title anim-fade-up delay-100">Come Back to What Makes You Feel Alive.</h1>
+            <p class="anim-fade-up delay-200">VitaCore brings together mindful movement, nourishing nutrition, restorative habits, and personalized guidance to help you build a healthier life from the inside out.</p>
+            <div class="hero-btns anim-fade-up delay-300">
+              <a href="#contact" class="btn-primary-brand">Start Your Journey</a>
+              <a href="#philosophy" class="btn-outline-brand">Explore Wellness</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-xl-5 d-none d-lg-block">
+          <div class="floating-card anim-fade-up delay-400">
+            <h4>Your Wellbeing, Reimagined</h4>
+            <ul class="floating-list">
+              <li><i class="fa-solid fa-check"></i> Mind</li>
+              <li><i class="fa-solid fa-check"></i> Body</li>
+              <li><i class="fa-solid fa-check"></i> Lifestyle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section id="philosophy" class="section-padding philosophy-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0 anim-trigger">
+          <div class="anim-clip-reveal">
+            <img src="https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?q=80&w=1200&auto=format&fit=crop" alt="Philosophy of Wellness">
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1">
+          <div class="anim-slide-right">
+            <span class="small-label">Our Philosophy</span>
+            <h2 class="section-title">Health Begins With Balance.</h2>
+            <p>We believe that wellness is not a destination, but a sustainable daily rhythm. Our holistic approach considers physical wellbeing, emotional balance, mindful movement, and restorative sleep as interconnected elements of a complete life.</p>
+            
+            <ul class="philosophy-list list-unstyled">
+              <li class="anim-fade-up delay-100">
+                <h4><span>01</span> Nourish</h4>
+                <p class="mb-0">Fueling your body with intention and quality.</p>
+              </li>
+              <li class="anim-fade-up delay-200">
+                <h4><span>02</span> Move</h4>
+                <p class="mb-0">Finding joy in strength and mobility.</p>
+              </li>
+              <li class="anim-fade-up delay-300">
+                <h4><span>03</span> Restore</h4>
+                <p class="mb-0">Honoring rest as the foundation of progress.</p>
+              </li>
+            </ul>
+            
+            <div class="mt-5 anim-fade-up delay-400">
+              <a href="#programs" class="btn-outline-brand">Explore Our Philosophy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="section-padding bg-surface">
+    <div class="container">
+      <div class="text-center mb-5 anim-fade-up">
+        <span class="small-label">Wellness Programs</span>
+        <h2 class="section-title">Designed for Real Life</h2>
+      </div>
+      
+      <div class="row g-4 justify-content-center align-items-stretch">
+        <!-- Reset -->
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-100 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop" alt="Reset Program">
+            </div>
+            <div class="program-content">
+              <h3>Reset</h3>
+              <p>For rebuilding healthy daily habits.</p>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Lifestyle assessment</li>
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Nutrition guidance</li>
+              </ul>
+              <a href="#contact" class="btn-outline-brand w-100 text-center">Join Reset</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Balance -->
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-200 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1528319725582-ddc096101511?q=80&w=800&auto=format&fit=crop" alt="Balance Program">
+            </div>
+            <div class="program-content">
+              <h3>Balance</h3>
+              <p>For stress management and everyday wellbeing.</p>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Mindfulness sessions</li>
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Movement plan</li>
+              </ul>
+              <a href="#contact" class="btn-outline-brand w-100 text-center">Join Balance</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Vitality -->
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-300 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=800&auto=format&fit=crop" alt="Vitality Program">
+            </div>
+            <div class="program-content">
+              <h3>Vitality</h3>
+              <p>For energy, movement, and sustainable fitness.</p>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Personalized movement</li>
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Nutrition strategy</li>
+              </ul>
+              <a href="#contact" class="btn-outline-brand w-100 text-center">Join Vitality</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Thrive -->
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-400 d-flex mx-auto">
+          <div class="program-card position-relative w-100">
+            <span class="program-badge position-absolute top-0 end-0 m-3 z-3">Most Complete</span>
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800&auto=format&fit=crop" alt="Thrive Program">
+            </div>
+            <div class="program-content">
+              <h3>Thrive</h3>
+              <p>A complete holistic wellness journey.</p>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Full assessment</li>
+                <li><i class="fa-solid fa-check text-accent me-2"></i> Lifestyle coaching</li>
+              </ul>
+              <a href="#contact" class="btn-primary-brand w-100 text-center">Join Thrive</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wellness Experience Section -->
+  <section id="wellness" class="section-padding">
+    <div class="container text-center">
+      <span class="small-label anim-fade-up">Wellness Experience</span>
+      <h2 class="section-title anim-fade-up delay-100 mb-5">Feel Better in Every Dimension.</h2>
+      <div class="row g-4 justify-content-center align-items-stretch">
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-100 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop" alt="Mind">
+            </div>
+            <div class="program-content">
+              <h3>Mind</h3>
+              <p>Clarity and calm through intentional practices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-200 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop" alt="Body">
+            </div>
+            <div class="program-content">
+              <h3>Body</h3>
+              <p>Strength, mobility, and physical restoration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-300 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop" alt="Nutrition">
+            </div>
+            <div class="program-content">
+              <h3>Nutrition</h3>
+              <p>Nourishing habits for everyday energy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-sm-8 col-md-6 col-lg-3 anim-fade-up delay-400 d-flex mx-auto">
+          <div class="program-card w-100">
+            <div class="program-img">
+              <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop" alt="Lifestyle">
+            </div>
+            <div class="program-content">
+              <h3>Lifestyle</h3>
+              <p>Sustainable routines for a balanced life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Experts Section -->
+  <section id="experts" class="section-padding bg-surface">
+    <div class="container">
+      <div class="text-center mb-5 anim-fade-up">
+        <span class="small-label">Meet the Experts</span>
+        <h2 class="section-title">Guidance From People Who Care.</h2>
+      </div>
+      <div class="row g-4 justify-content-center text-center">
+        <div class="col-md-6 col-lg-3 anim-fade-up delay-100">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Expert 1">
+          <h4>Sarah Jenkins</h4>
+          <p class="text-accent mb-1">Wellness Coach</p>
+        </div>
+        <div class="col-md-6 col-lg-3 anim-fade-up delay-200">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Expert 2">
+          <h4>David Chen</h4>
+          <p class="text-accent mb-1">Nutrition Specialist</p>
+        </div>
+        <div class="col-md-6 col-lg-3 anim-fade-up delay-300">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Expert 3">
+          <h4>Elena Rostova</h4>
+          <p class="text-accent mb-1">Mindfulness Guide</p>
+        </div>
+        <div class="col-md-6 col-lg-3 anim-fade-up delay-400">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop" class="rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" alt="Expert 4">
+          <h4>Marcus Cole</h4>
+          <p class="text-accent mb-1">Movement Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories Section -->
+  <section id="stories" class="section-padding">
+    <div class="container text-center">
+      <span class="small-label anim-fade-up">Stories</span>
+      <h2 class="section-title anim-fade-up delay-100 mb-5">Real People. Real Change.</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 anim-fade-up delay-200">
+          <div class="bg-surface p-5 rounded shadow-sm">
+            <i class="fa-solid fa-quote-left fs-1 text-secondary-brand mb-4"></i>
+            <p class="fs-5 fst-italic mb-4">"I stopped chasing quick fixes and started building habits that actually fit my life. VitaCore helped me understand what balance really means."</p>
+            <div class="d-flex align-items-center justify-content-center gap-3">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=150&auto=format&fit=crop" class="rounded-circle" style="width: 60px; height: 60px;" alt="Guest">
+              <div class="text-start">
+                <h5 class="mb-0">Amanda R.</h5>
+                <small class="text-muted">Balance Program</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section-padding bg-surface">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center mb-5 anim-fade-up">
+            <span class="small-label">FAQ</span>
+            <h2 class="section-title">Questions, Answered.</h2>
+          </div>
+          <div class="accordion anim-fade-up delay-100" id="wellnessFaq">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  What does holistic wellness mean?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#wellnessFaq">
+                <div class="accordion-body">
+                  Holistic wellness is an approach to being healthy that looks at the full person—including physical, emotional, and lifestyle aspects—rather than just treating isolated symptoms.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Are the programs personalized?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#wellnessFaq">
+                <div class="accordion-body">
+                  Yes, every VitaCore journey begins with a comprehensive assessment to ensure the program aligns precisely with your individual goals, schedule, and lifestyle.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  How long does a wellness program take?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#wellnessFaq">
+                <div class="accordion-body">
+                  Programs range from 4 to 12 weeks, depending on the depth of support you need. The "Thrive" program is our most comprehensive 12-week journey.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / FAQ placeholder for brevity, as we are creating a complete look -->
+  <section id="contact" class="section-padding contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0 anim-slide-right">
+          <span class="small-label">Contact</span>
+          <h2 class="section-title">Let’s Begin Your Wellness Journey.</h2>
+          <p>Tell us where you are today and where you would like to go.</p>
+          
+          <form class="mt-4">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <select class="form-control" required>
+                <option value="" disabled selected>Wellness Goal</option>
+                <option value="nutrition">Better Nutrition</option>
+                <option value="stress">Stress Management</option>
+                <option value="fitness">Fitness & Movement</option>
+                <option value="sleep">Better Sleep</option>
+                <option value="mindfulness">Mindfulness</option>
+                <option value="complete">Complete Wellness</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn-primary-brand">Start My Journey</button>
+          </form>
+        </div>
+        <div class="col-lg-5 offset-lg-1 anim-fade-up delay-200">
+          <div class="bg-surface p-5 rounded h-100 shadow-sm">
+            <h3 class="mb-4">Visit VitaCore</h3>
+            
+            <div class="d-flex mb-4">
+              <i class="fa-solid fa-location-dot text-accent fs-4 me-3 mt-1"></i>
+              <div>
+                <h5>VitaCore Wellness Studio</h5>
+                <p class="mb-0 text-muted">245 Willow Avenue<br>Austin, TX 78701</p>
+              </div>
+            </div>
+            
+            <div class="d-flex mb-4">
+              <i class="fa-solid fa-phone text-accent fs-4 me-3 mt-1"></i>
+              <div>
+                <h5>Phone</h5>
+                <p class="mb-0 text-muted">+1 (555) 284-9031</p>
+              </div>
+            </div>
+            
+            <div class="d-flex">
+              <i class="fa-solid fa-clock text-accent fs-4 me-3 mt-1"></i>
+              <div>
+                <h5>Hours</h5>
+                <p class="mb-0 text-muted">Mon – Fri: 8:00 AM – 8:00 PM<br>Sat: 9:00 AM – 5:00 PM</p>
+              </div>
+            </div>
+            
+            <div class="mt-4 pt-4 border-top">
+              <h5 class="mb-3">Connect With Us</h5>
+              <div class="d-flex gap-3 contact-social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </div>
+            </div>
+            
+            <div class="mt-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27572.768652395697!2d-97.76632349071068!3d30.26759714856012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50c18d4db3b%3A0x6b29e06cd2df9f20!2sDowntown%20Austin%2C%20Austin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="250" style="border:0; border-radius: var(--border-radius);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 pe-lg-5">
+          <a href="#" class="logo text-white mb-4">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <span class="text-white">VitaCore</span>
+          </a>
+          <p>Helping you create a healthier, calmer, more intentional life.</p>
+          <div class="mt-4 d-flex gap-3 footer-socials">
+            <a href="#"><i class="fa-brands fa-instagram fs-4"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fs-4"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter fs-4"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-4">
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#philosophy">Our Philosophy</a>
+            <a href="#wellness">Wellness</a>
+            <a href="#programs">Programs</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-4">
+          <h4>Resources</h4>
+          <div class="footer-links">
+            <a href="#experts">Experts</a>
+            <a href="#stories">Stories</a>
+            <a href="#">Journal</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <h4>Support</h4>
+          <div class="footer-links">
+            <a href="#contact">Contact</a>
+            <a href="#contact">Book a Session</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="mb-0">© 2026 VitaCore. Holistic Health & Wellness.</p>
+        <div class="d-flex gap-4">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </div> <!-- End site-wrapper -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
