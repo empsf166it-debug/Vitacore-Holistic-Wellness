@@ -372,6 +372,11 @@ ul {
     justify-content: center;
   }
 }
+.hero-btns .btn-primary-brand:hover {
+  background-color: #fff;
+  color: var(--color-primary);
+  border-color: #fff;
+}
 .hero-btns .btn-outline-brand {
   border-color: #fff;
   color: #fff;
