@@ -176,7 +176,7 @@ ul {
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fff; /* Default to white for transparent header */
+  color: var(--color-text-dark);
   transition: var(--transition-smooth);
 }
 .logo i {
@@ -196,7 +196,7 @@ ul {
   font-size: 0.95rem;
   font-weight: 500;
   position: relative;
-  color: #fff; /* Default to white for transparent header */
+  color: var(--color-text-dark);
   transition: var(--transition-smooth);
 }
 .main-nav a::after {
@@ -221,7 +221,7 @@ ul {
 .icon-btn {
   background: none;
   border: none;
-  color: #fff; /* Default to white for transparent header */
+  color: var(--color-text-dark);
   font-size: 1.2rem;
   cursor: pointer;
   transition: var(--transition-smooth);
@@ -230,15 +230,6 @@ ul {
   color: var(--color-accent);
 }
 
-/* Scrolled Header Colors (Revert to theme colors) */
-.site-header.scrolled .logo,
-.site-header.scrolled .main-nav a,
-.site-header.scrolled .icon-btn {
-  color: var(--color-text-dark);
-}
-.site-header.scrolled .logo i {
-  color: var(--color-secondary);
-}
 
 .mobile-menu-toggle {
   display: block;
