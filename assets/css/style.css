@@ -282,6 +282,11 @@ ul {
   font-size: 1.2rem;
   font-weight: 500;
   font-family: var(--font-heading);
+  transition: var(--transition-smooth);
+}
+.drawer-nav a:hover,
+.drawer-nav a.active {
+  color: var(--color-accent);
 }
 .drawer-overlay {
   position: fixed;
@@ -368,8 +373,30 @@ ul {
   .section-padding, .program-content, .philosophy-content, .contact-section {
     text-align: center !important;
   }
-  .philosophy-list h4, .program-content ul li {
+  .contact-section .bg-surface .d-flex > div {
+    text-align: left !important;
+  }
+  .program-content ul li {
     justify-content: center;
+  }
+  .philosophy-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .philosophy-list h4 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .philosophy-list h4 span {
+    width: 35px;
+    text-align: left;
+    flex-shrink: 0;
+  }
+  .philosophy-list p {
+    text-align: left !important;
+    margin-left: 50px;
+    width: auto;
   }
 }
 .hero-btns .btn-primary-brand:hover {
@@ -498,7 +525,7 @@ ul {
   color: var(--color-text-dark);
   font-family: var(--font-heading);
   font-size: 1.1rem;
-  padding: 20px 25px;
+  padding: 25px;
   box-shadow: none !important;
 }
 .accordion-button:not(.collapsed) {
@@ -509,7 +536,7 @@ ul {
 .accordion-body {
   background-color: var(--color-surface);
   color: var(--color-text-muted);
-  padding: 0 25px 25px;
+  padding: 25px;
 }
 
 /* Dark Mode Accordion */
